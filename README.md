@@ -24,3 +24,6 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/SmallestSubArrayOfSumK.java) |
+| 2 | Given an array of sorted numbers, remove all duplicates from it. You should not use any extra space; after removing the duplicates in-place return the new length of the array. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/RemoveDuplicateFromSortedArray.java) |
+
+
