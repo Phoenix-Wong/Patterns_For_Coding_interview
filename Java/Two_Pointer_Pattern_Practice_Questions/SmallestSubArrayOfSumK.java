@@ -1,5 +1,5 @@
 /*
-Question : Given an array of positive numbers and a positive number ‘S’, find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0, if no such subarray exists.
+Question : Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.
 */
 
 package Two_Pointer_Pattern_Practice_Questions;
