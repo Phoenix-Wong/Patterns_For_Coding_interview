@@ -1,5 +1,5 @@
 /*
-Question : Given an array, find the average of all contiguous sub-arrays of size ‘K’ in it.
+Question : Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.
 */
 
 package Sliding_Window_Pattern_Practice_Questions;

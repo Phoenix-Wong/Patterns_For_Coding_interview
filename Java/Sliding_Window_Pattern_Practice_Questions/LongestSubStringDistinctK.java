@@ -1,5 +1,5 @@
 /*
-Question : Given an array, find the average of all contiguous sub-arrays of size ‘K’ in it.
+Question : Given a string, find the length of the longest substring in it with no more than K distinct characters.
 */
 
 package Sliding_Window_Pattern_Practice_Questions;

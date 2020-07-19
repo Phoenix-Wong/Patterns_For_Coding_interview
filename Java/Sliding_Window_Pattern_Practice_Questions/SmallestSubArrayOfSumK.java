@@ -1,5 +1,5 @@
 /*
-Question : Given an array, find the average of all contiguous sub-arrays of size ‘K’ in it.
+Question : Given an array of positive numbers and a positive number ‘S’, find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0, if no such subarray exists.
 */
 
 package Sliding_Window_Pattern_Practice_Questions;
