@@ -23,4 +23,4 @@
 
 | # | Question | Solution |
 |---| -------- | -------- |
-| 1 | Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Sliding_Window_Pattern_Practice_Questions/AverageOfSubArrayOfSizeK.java) |
+| 1 | Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/SmallestSubArrayOfSumK.java) |
