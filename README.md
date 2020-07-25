@@ -6,6 +6,10 @@
 |---| ----- | --------------------- | ------------------ |
 | 1 | Sliding Window Pattern | Contiguous sub-array as a sliding window | [Go Here](#Sliding_Window_Pattern_Practice_Questions) |
 | 2 | Two Pointer Pattern | Contiguous sub-array using two pointers | [Go Here](#Two_Pointer_Pattern_Practice_Questions) |
+| 3 | Fast Slow Pointer Pattern | using one fast and one slow pointers | [Go Here](#Fast_Slow_Pointer_Pattern_Practice_Questions) |
+
+
+
 
 
 ## Sliding_Window_Pattern_Practice_Questions
@@ -29,6 +33,11 @@
 | 4 | Given an array of unsorted numbers, find all unique triplets in it that add up to zero. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/UniqueTripletsNonSortedArray.java) |
 | 5 | Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible, return the sum of the triplet. If there are more than one such triplet, return the sum of the triplet with the smallest sum. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/ClosetSumTripletsNonSortedArray.java) |
 
+## Fast_Slow_Pointer_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given the head of a Singly LinkedList, write a function to determine if the LinkedList has a cycle in it or not. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/CheckIsCyclicLinkedList.java) |
 
 
 
