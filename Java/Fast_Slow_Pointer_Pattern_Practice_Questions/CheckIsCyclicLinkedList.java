@@ -1,5 +1,5 @@
 /*
-Question : Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible, return the sum of the triplet. If there are more than one such triplet, return the sum of the triplet with the smallest sum.
+Question : Given the head of a Singly LinkedList, write a function to determine if the LinkedList has a cycle in it or not.
 */
 
 package Fast_Slow_Pointer_Pattern_Practice_Questions;
