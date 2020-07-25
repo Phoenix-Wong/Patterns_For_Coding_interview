@@ -38,6 +38,12 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given the head of a Singly LinkedList, write a function to determine if the LinkedList has a cycle in it or not. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/CheckIsCyclicLinkedList.java) |
+| 2 | Given the head of a LinkedList with a cycle, find the length of the cycle. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/FindLengthCyclicLinkedList.java) |
+
+
+
+
+
 
 
 
