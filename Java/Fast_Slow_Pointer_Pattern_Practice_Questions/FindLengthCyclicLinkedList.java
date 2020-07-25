@@ -4,6 +4,7 @@ Question : Given the head of a LinkedList with a cycle, find the length of the c
 
 package Fast_Slow_Pointer_Pattern_Practice_Questions;
 
+
 class FindLengthCyclicLinkedList
 {
     public static void main (String args[])
@@ -50,8 +51,6 @@ class FindLengthCyclicLinkedList
                 break;
             }
         }
-        return length;
-        
-       
+        return length;  
     }
 }

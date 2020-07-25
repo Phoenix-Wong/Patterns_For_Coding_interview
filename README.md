@@ -37,10 +37,15 @@
 
 | # | Question | Solution |
 |---| -------- | -------- |
-| 1 | Given the head of a Singly LinkedList, write a function to determine if the LinkedList has a cycle in it or not. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/CheckIsCyclicLinkedList.java) |
-| 2 | Given the head of a LinkedList with a cycle, find the length of the cycle. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/FindLengthCyclicLinkedList.java) |
+| 1 | Given the head of a Singly LinkedList, write a function to determine if the LinkedList has a cycle in it or not. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Fast_Slow_Pointer_Pattern_Practice_Questions/CheckIsCyclicLinkedList.java) |
+| 2 | Given the head of a LinkedList with a cycle, find the length of the cycle. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Fast_Slow_Pointer_Pattern_Practice_Questions/FindLengthCyclicLinkedList.java) |
 
+## Merge_Intervals_Pattern_Practice_Questions
 
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Merge_Intervals_Pattern_Practice_Questions/MergeIntervals.java) |
+| 2 | Given a set of intervals, find out if any two intervals overlap. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Merge_Intervals_Pattern_Practice_Questions/OverlapIntervals.java) |
 
 
 
