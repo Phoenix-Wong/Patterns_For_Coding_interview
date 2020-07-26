@@ -63,6 +63,7 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given the head of a Singly LinkedList, reverse the LinkedList. Write a function to return the new head of the reversed LinkedList. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/In_Place_Reversal_Pattern_Practice_Questions/ReverseLinkedList.java) |
+| 2 | Given the head of a LinkedList and two positions ‘p’ and ‘q’, reverse the LinkedList from position ‘p’ to ‘q’. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/In_Place_Reversal_Pattern_Practice_Questions/ReverseLinkedList.java) |
 
 
 
