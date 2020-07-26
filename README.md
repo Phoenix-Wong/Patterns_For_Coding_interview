@@ -46,6 +46,9 @@
 |---| -------- | -------- |
 | 1 | Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Merge_Intervals_Pattern_Practice_Questions/MergeIntervals.java) |
 | 2 | Given a set of intervals, find out if any two intervals overlap. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Merge_Intervals_Pattern_Practice_Questions/OverlapIntervals.java) |
+| 3 | Given a list of non-overlapping intervals sorted by their start time, insert a given interval at the correct position and merge all necessary intervals to produce a list that has only mutually exclusive intervals. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Merge_Intervals_Pattern_Practice_Questions/InsertIntervals.java) |
+
+
 
 
 
