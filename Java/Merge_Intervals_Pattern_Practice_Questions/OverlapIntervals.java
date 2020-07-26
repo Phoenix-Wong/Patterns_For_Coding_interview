@@ -7,7 +7,6 @@ package Merge_Intervals_Pattern_Practice_Questions;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import Merge_Intervals_Pattern_Practice_Questions.Interval;
 
 
 class OverlapIntervals

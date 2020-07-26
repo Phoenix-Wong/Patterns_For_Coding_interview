@@ -8,7 +8,8 @@
 | 2 | Two Pointer Pattern | Contiguous sub-array using two pointers | [Go Here](#Two_Pointer_Pattern_Practice_Questions) |
 | 3 | Fast Slow Pointer Pattern | using one fast and one slow pointers | [Go Here](#Fast_Slow_Pointer_Pattern_Practice_Questions) |
 | 4 | Merge Intervals Pattern Practice Questions | merging intervals using start and end values. | [Go Here](#Merge_Intervals_Pattern_Practice_Questions) |
-| 5 | Cyclic Sort Pattern Practice Questions |  | [Go Here](#Cyclic_Sort_Pattern_Practice_Questions) |
+| 5 | Cyclic Sort Pattern Practice Questions | cycling over one element while its not correct. | [Go Here](#Cyclic_Sort_Pattern_Practice_Questions) |
+| 6 | In Place Reversal Pattern Practice Questions | . | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
 
 
 
@@ -56,6 +57,12 @@
 |---| -------- | -------- |
 | 1 | Write a function to sort the objects in-place on their creation sequence number in O(n) and without any extra space. For simplicity, let’s assume we are passed an integer array containing only the sequence numbers, though each number is actually an object. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Cyclic_Sort_Pattern_Practice_Questions/CyclicSortArray.java) |
 | 2 | We are given an array containing ‘n’ distinct numbers taken from the range 0 to ‘n’. Since the array has only ‘n’ numbers out of the total ‘n+1’ numbers, find the missing number. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Cyclic_Sort_Pattern_Practice_Questions/CyclicSearchArray.java) |
+
+## In_Place_Reversal_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given the head of a Singly LinkedList, reverse the LinkedList. Write a function to return the new head of the reversed LinkedList. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/In_Place_Reversal_Pattern_Practice_Questions/ReverseLinkedList.java) |
 
 
 

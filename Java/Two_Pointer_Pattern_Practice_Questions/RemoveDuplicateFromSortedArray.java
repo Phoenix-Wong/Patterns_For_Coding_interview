@@ -3,7 +3,6 @@ Question : Given an array of sorted numbers and a target sum, find a pair in the
 */
 
 package Two_Pointer_Pattern_Practice_Questions;
-import java.util.Arrays;
 
 
 class RemoveDuplicateFromSortedArray

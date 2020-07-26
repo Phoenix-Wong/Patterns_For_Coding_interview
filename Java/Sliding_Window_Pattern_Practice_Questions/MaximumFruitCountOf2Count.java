@@ -59,8 +59,11 @@ class MaximumFruitCountOf2Count
             {    
                 if(map.containsKey(arr[windowStart]))
                 {
-                    int result = map.get(arr[windowStart]) == 0 ? map.remove(arr[windowStart])
-                            : map.put(arr[windowStart], map.get(arr[windowStart]) - 1);
+                    if (map.get(arr[windowStart]) == 0) {
+                        map.remove(arr[windowStart]);
+                    } else {
+                        map.put(arr[windowStart], map.get(arr[windowStart]) - 1);
+                    }
                 }
                 
                 windowStart++;

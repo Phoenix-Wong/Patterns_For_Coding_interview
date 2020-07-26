@@ -5,7 +5,6 @@ Question : Given a list of non-overlapping intervals sorted by their start time,
 package Merge_Intervals_Pattern_Practice_Questions;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 
