@@ -9,7 +9,8 @@
 | 3 | Fast Slow Pointer Pattern | using one fast and one slow pointers | [Go Here](#Fast_Slow_Pointer_Pattern_Practice_Questions) |
 | 4 | Merge Intervals Pattern Practice Questions | merging intervals using start and end values. | [Go Here](#Merge_Intervals_Pattern_Practice_Questions) |
 | 5 | Cyclic Sort Pattern Practice Questions | cycling over one element while its not correct. | [Go Here](#Cyclic_Sort_Pattern_Practice_Questions) |
-| 6 | In Place Reversal Pattern Practice Questions | . | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
+| 6 | In Place Reversal Pattern Practice Questions | reverse linked list. | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
+| 7 | Breadth_First_Search_Pattern_Practice_Questions | BFS tree traversal. | [Go Here](#Breadth_First_Search_Pattern_Practice_Questions) |
 
 
 
@@ -65,7 +66,8 @@
 | 1 | Given the head of a Singly LinkedList, reverse the LinkedList. Write a function to return the new head of the reversed LinkedList. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/In_Place_Reversal_Pattern_Practice_Questions/ReverseLinkedList.java) |
 | 2 | Given the head of a LinkedList and two positions ‘p’ and ‘q’, reverse the LinkedList from position ‘p’ to ‘q’. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/In_Place_Reversal_Pattern_Practice_Questions/ReverseLinkedList.java) |
 
+## Breadth_First_Search_Pattern_Practice_Questions
 
-
-
-
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given a binary tree, populate an array to represent its level-by-level traversal. You should populate the values of all nodes of each level from left to right in separate sub-arrays. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Breadth_First_Search_Pattern_Practice_Questions/LevelOrderTraversal.java) |
