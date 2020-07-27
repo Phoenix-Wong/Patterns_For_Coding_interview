@@ -71,3 +71,6 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given a binary tree, populate an array to represent its level-by-level traversal. You should populate the values of all nodes of each level from left to right in separate sub-arrays. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Breadth_First_Search_Pattern_Practice_Questions/LevelOrderTraversal.java) |
+| 2 | Given a binary tree, populate an array to represent its level-by-level traversal in reverse order, i.e., the lowest level comes first. You should populate the values of all nodes in each level from left to right in separate sub-arrays. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Breadth_First_Search_Pattern_Practice_Questions/ReverseLevelOrderTraversal.java) |
+| 3 | Given a binary tree, populate an array to represent its zigzag level order traversal. You should populate the values of all nodes of the first level from left to right, then right to left for the next level and keep alternating in the same manner for the following levels. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Breadth_First_Search_Pattern_Practice_Questions/ZigZagLevelOrderTraversal.java) |
+
