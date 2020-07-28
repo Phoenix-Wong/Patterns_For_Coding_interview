@@ -87,5 +87,6 @@
 |---| -------- | -------- |
 | 1 | Given a binary tree and a number ‘S’, find if the tree has a path from root-to-leaf such that the sum of all the node values of that path equals ‘S’. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Depth_First_Search_Pattern_Practice_Questions/TreePathSum.java) |
 | 2 | Given a binary tree and a number ‘S’, find all paths from root-to-leaf such that the sum of all the node values of each path equals ‘S’. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Depth_First_Search_Pattern_Practice_Questions/FindAllTreePaths.java) |
+| 3 | Given a binary tree where each node can only have a digit (0-9) value, each root-to-leaf path will represent a number. Find the total sum of all the numbers represented by all paths. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Depth_First_Search_Pattern_Practice_Questions/FindSumOfPathNumbers.java) |
 
 
