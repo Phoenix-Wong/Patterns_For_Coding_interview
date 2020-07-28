@@ -12,6 +12,7 @@
 | 6 | In Place Reversal Pattern Practice Questions | reverse linked list. | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
 | 7 | Breadth First Search Pattern Practice Questions | BFS tree traversal. | [Go Here](#Breadth_First_Search_Pattern_Practice_Questions) |
 | 8 | Depth First Search Pattern Practice Questions | DFS tree traversal. | [Go Here](#Depth_First_Search_Pattern_Practice_Questions) |
+| 9 | Two Heap Pattern Practice Questions | DFS tree traversal. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
 
 
 
@@ -90,5 +91,11 @@
 | 3 | Given a binary tree where each node can only have a digit (0-9) value, each root-to-leaf path will represent a number. Find the total sum of all the numbers represented by all paths. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Depth_First_Search_Pattern_Practice_Questions/FindSumOfPathNumbers.java) |
 | 4 | Given a binary tree and a number sequence, find if the sequence is present as a root-to-leaf path in the given tree. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Depth_First_Search_Pattern_Practice_Questions/PathWithGivenSequence.java) |
 
+
+## Two_Heap_Search_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Design a class to calculate the median of a number stream. The class should have the following two methods: 1: insertNum(int num): stores the number in the class. 2: findMedian(): returns the median of all numbers inserted in the class. If the count of numbers inserted in the class is even, the median will be the average of the middle two numbers. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Heap_Search_Pattern_Practice_Questions/MedianOfStream.java) |
 
 
