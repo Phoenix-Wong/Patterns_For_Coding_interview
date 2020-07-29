@@ -12,7 +12,8 @@
 | 6 | In Place Reversal Pattern Practice Questions | reverse linked list. | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
 | 7 | Breadth First Search Pattern Practice Questions | BFS tree traversal. | [Go Here](#Breadth_First_Search_Pattern_Practice_Questions) |
 | 8 | Depth First Search Pattern Practice Questions | DFS tree traversal. | [Go Here](#Depth_First_Search_Pattern_Practice_Questions) |
-| 9 | Two Heap Pattern Practice Questions | DFS tree traversal. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
+| 9 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
+| 10 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
 
 
 
@@ -98,6 +99,13 @@
 |---| -------- | -------- |
 | 1 | Design a class to calculate the median of a number stream. The class should have the following two methods: 1: insertNum(int num): stores the number in the class. 2: findMedian(): returns the median of all numbers inserted in the class. If the count of numbers inserted in the class is even, the median will be the average of the middle two numbers. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Heap_Search_Pattern_Practice_Questions/MedianOfStream.java) |
 | 2 | Given an array of numbers and a number ‘k’, find the median of all the ‘k’ sized sub-arrays (or windows) of the array. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Heap_Search_Pattern_Practice_Questions/SlidingWindowMedian.java) |
+
+
+## Subset_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given a set with distinct elements, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/Subsets.java) |
 
 
 
