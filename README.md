@@ -106,6 +106,7 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given a set with distinct elements, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/Subsets.java) |
+| 2 | Given a set of numbers that might contain duplicates, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/SubsetsWithDuplicates.java) |
 
 
 
