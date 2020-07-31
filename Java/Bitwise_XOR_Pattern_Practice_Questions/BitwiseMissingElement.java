@@ -1,5 +1,5 @@
 /*
-Question : Given a sorted array of numbers, find if a given number ‘key’ is present in the array. Though we know that the array is sorted, we don’t know if it’s sorted in ascending or descending order. You should assume that the array can have duplicates. Write a function to return the index of the ‘key’ if it is present in the array, otherwise return -1.
+Question : Given an array of n-1n−1 integers in the range from 11 to nn, find the one number that is missing from the array.
 */
 
 package Bitwise_XOR_Pattern_Practice_Questions;

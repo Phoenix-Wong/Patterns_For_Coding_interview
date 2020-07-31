@@ -125,3 +125,6 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given an array of n-1n−1 integers in the range from 11 to nn, find the one number that is missing from the array. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Bitwise_XOR_Pattern_Practice_Questions/BitwiseMissingElement.java) |
+| 2 | In a non-empty array of integers, every number appears twice except for one, find that single number. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Bitwise_XOR_Pattern_Practice_Questions/BitwiseSingleElement.java) |
+
+
