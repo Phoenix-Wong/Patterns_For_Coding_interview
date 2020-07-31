@@ -133,4 +133,5 @@
 
 | # | Question | Solution |
 |---| -------- | -------- |
-| 1 | Given an unsorted array of numbers, find the ‘K’ largest numbers in it. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Top_K_Element_Pattern_Practice_Questions/BitwiseMissingElement.java) |
+| 1 | Given an unsorted array of numbers, find the ‘K’ largest numbers in it. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Top_K_Element_Pattern_Practice_Questions/KLargestNumbers.java) |
+| 2 | Given an unsorted array of numbers, find Kth smallest number in it. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Top_K_Element_Pattern_Practice_Questions/KSmallestNumbers.java) |
