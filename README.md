@@ -15,6 +15,7 @@
 | 9 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
 | 10 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
 | 11 | Binary Search Pattern Practice Questions | Modifying binary search. | [Go Here](#Binary_Search_Pattern_Practice_Questions) |
+| 12 | Bitwise XOR Pattern Practice Questions | Modifying binary search. | [Go Here](#Bitwise_XOR_Pattern_Practice_Questions) |
 
 
 
@@ -109,6 +110,7 @@
 | 1 | Given a set with distinct elements, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/Subsets.java) |
 | 2 | Given a set of numbers that might contain duplicates, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/SubsetsWithDuplicates.java) |
 
+
 ## Binary_Search_Pattern_Practice_Questions
 
 | # | Question | Solution |
@@ -118,4 +120,8 @@
 | 3 | Given an array of lowercase letters sorted in ascending order, find the smallest letter in the given array greater than a given ‘key’. Assume the given array is a circular list, which means that the last letter is assumed to be connected with the first letter. This also means that the smallest letter in the given array is greater than the last letter of the array and is also the first letter of the array. Write a function to return the next letter of the given ‘key’. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Binary_Search_Pattern_Practice_Questions/SearchNextNumber.java) |
 
 
+## Bitwise_XOR_Pattern_Practice_Questions
 
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given an array of n-1n−1 integers in the range from 11 to nn, find the one number that is missing from the array. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Bitwise_XOR_Pattern_Practice_Questions/BitwiseMissingElement.java) |
