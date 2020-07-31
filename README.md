@@ -14,6 +14,7 @@
 | 8 | Depth First Search Pattern Practice Questions | DFS tree traversal. | [Go Here](#Depth_First_Search_Pattern_Practice_Questions) |
 | 9 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
 | 10 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
+| 11 | Binary Search Pattern Practice Questions | Modifying binary search. | [Go Here](#Binary_Search_Pattern_Practice_Questions) |
 
 
 
@@ -108,5 +109,9 @@
 | 1 | Given a set with distinct elements, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/Subsets.java) |
 | 2 | Given a set of numbers that might contain duplicates, find all of its distinct subsets. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Subset_Pattern_Practice_Questions/SubsetsWithDuplicates.java) |
 
+## Binary_Search_Pattern_Practice_Questions
 
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given a sorted array of numbers, find if a given number ‘key’ is present in the array. Though we know that the array is sorted, we don’t know if it’s sorted in ascending or descending order. You should assume that the array can have duplicates. Write a function to return the index of the ‘key’ if it is present in the array, otherwise return -1. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Binary_Search_Pattern_Practice_Questions/OrderAgnosticBinarySearch.java) |
 
