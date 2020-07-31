@@ -114,4 +114,7 @@
 | # | Question | Solution |
 |---| -------- | -------- |
 | 1 | Given a sorted array of numbers, find if a given number ‘key’ is present in the array. Though we know that the array is sorted, we don’t know if it’s sorted in ascending or descending order. You should assume that the array can have duplicates. Write a function to return the index of the ‘key’ if it is present in the array, otherwise return -1. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Binary_Search_Pattern_Practice_Questions/OrderAgnosticBinarySearch.java) |
+| 2 | Given an array of numbers sorted in an ascending order, find the ceiling of a given number ‘key’. The ceiling of the ‘key’ will be the smallest element in the given array greater than or equal to the ‘key’. Write a function to return the index of the ceiling of the ‘key’. If there isn’t any ceiling return -1. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Binary_Search_Pattern_Practice_Questions/OrderAgnosticBinarySearch.java) |
+
+
 
