@@ -15,7 +15,8 @@
 | 9 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
 | 10 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
 | 11 | Binary Search Pattern Practice Questions | Modifying binary search. | [Go Here](#Binary_Search_Pattern_Practice_Questions) |
-| 12 | Bitwise XOR Pattern Practice Questions | Modifying binary search. | [Go Here](#Bitwise_XOR_Pattern_Practice_Questions) |
+| 12 | Bitwise XOR Pattern Practice Questions | use XOR gate. | [Go Here](#Bitwise_XOR_Pattern_Practice_Questions) |
+| 13 | Top K Element Pattern Practice Questions | use heap to find top k element | [Go Here](#Top_K_Element_Pattern_Practice_Questions) |
 
 
 
@@ -128,3 +129,8 @@
 | 2 | In a non-empty array of integers, every number appears twice except for one, find that single number. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Bitwise_XOR_Pattern_Practice_Questions/BitwiseSingleElement.java) |
 
 
+## Top_K_Element_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given an unsorted array of numbers, find the ‘K’ largest numbers in it. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Top_K_Element_Pattern_Practice_Questions/BitwiseMissingElement.java) |
