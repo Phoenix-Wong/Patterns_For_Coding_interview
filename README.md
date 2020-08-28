@@ -4,22 +4,31 @@
 
 | # | Title | Basic idea (One line) | Practice Questions |
 |---| ----- | --------------------- | ------------------ |
-| 1 | Sliding Window Pattern | Contiguous sub-array as a sliding window | [Go Here](#Sliding_Window_Pattern_Practice_Questions) |
-| 2 | Two Pointer Pattern | Contiguous sub-array using two pointers | [Go Here](#Two_Pointer_Pattern_Practice_Questions) |
-| 3 | Fast Slow Pointer Pattern | using one fast and one slow pointers | [Go Here](#Fast_Slow_Pointer_Pattern_Practice_Questions) |
-| 4 | Merge Intervals Pattern Practice Questions | merging intervals using start and end values. | [Go Here](#Merge_Intervals_Pattern_Practice_Questions) |
-| 5 | Cyclic Sort Pattern Practice Questions | cycling over one element while its not correct. | [Go Here](#Cyclic_Sort_Pattern_Practice_Questions) |
-| 6 | In Place Reversal Pattern Practice Questions | reverse linked list. | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
-| 7 | Breadth First Search Pattern Practice Questions | BFS tree traversal. | [Go Here](#Breadth_First_Search_Pattern_Practice_Questions) |
-| 8 | Depth First Search Pattern Practice Questions | DFS tree traversal. | [Go Here](#Depth_First_Search_Pattern_Practice_Questions) |
-| 9 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
-| 10 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
-| 11 | Binary Search Pattern Practice Questions | Modifying binary search. | [Go Here](#Binary_Search_Pattern_Practice_Questions) |
-| 12 | Bitwise XOR Pattern Practice Questions | use XOR gate. | [Go Here](#Bitwise_XOR_Pattern_Practice_Questions) |
-| 13 | Top K Element Pattern Practice Questions | use heap to find top k element | [Go Here](#Top_K_Element_Pattern_Practice_Questions) |
+| 1 | Reverse_Traversal_Pattern | Reverse traverse an array. | [Go Here](#Reverse_Traversal_Pattern_Practice_Questions) |
+| 2 | Sliding Window Pattern | Contiguous sub-array as a sliding window | [Go Here](#Sliding_Window_Pattern_Practice_Questions) |
+| 3 | Two Pointer Pattern | Contiguous sub-array using two pointers | [Go Here](#Two_Pointer_Pattern_Practice_Questions) |
+| 4 | Fast Slow Pointer Pattern | using one fast and one slow pointers | [Go Here](#Fast_Slow_Pointer_Pattern_Practice_Questions) |
+| 5 | Merge Intervals Pattern Practice Questions | merging intervals using start and end values. | [Go Here](#Merge_Intervals_Pattern_Practice_Questions) |
+| 6 | Cyclic Sort Pattern Practice Questions | cycling over one element while its not correct. | [Go Here](#Cyclic_Sort_Pattern_Practice_Questions) |
+| 7 | In Place Reversal Pattern Practice Questions | reverse linked list. | [Go Here](#In_Place_Reversal_Pattern_Practice_Questions) |
+| 8 | Breadth First Search Pattern Practice Questions | BFS tree traversal. | [Go Here](#Breadth_First_Search_Pattern_Practice_Questions) |
+| 9 | Depth First Search Pattern Practice Questions | DFS tree traversal. | [Go Here](#Depth_First_Search_Pattern_Practice_Questions) |
+| 10 | Two Heap Pattern Practice Questions | Using max and min heap. | [Go Here](#Two_Heap_Search_Pattern_Practice_Questions) |
+| 11 | Subset Pattern Practice Questions | Using BFS for permutation and combination. | [Go Here](#Subset_Pattern_Practice_Questions) |
+| 12 | Binary Search Pattern Practice Questions | Modifying binary search. | [Go Here](#Binary_Search_Pattern_Practice_Questions) |
+| 13 | Bitwise XOR Pattern Practice Questions | use XOR gate. | [Go Here](#Bitwise_XOR_Pattern_Practice_Questions) |
+| 14 | Top K Element Pattern Practice Questions | use heap to find top k element | [Go Here](#Top_K_Element_Pattern_Practice_Questions) |
 
 
 
+
+
+## Reverse_Traversal_Pattern_Practice_Questions
+
+| # | Question | Solution |
+|---| -------- | -------- |
+| 1 | Given an array of numbers, replace each even number with two of the same number. e.g, [1,2,5,6,8, , , ,] -> [1,2,2,5,6,6,8,8]. Assume that the array has the exact amount of space to accommodate the result. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Reverse_Traversal_Pattern_Practice_Questions/DuplicateEvenNumbers.java) |
+| 2 | Given a sentence, reverse the words of the sentence. For example, "i live in a house" becomes "house a in live i". | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Reverse_Traversal_Pattern_Practice_Questions/ReverseString.java) |
 
 
 ## Sliding_Window_Pattern_Practice_Questions
@@ -42,6 +51,9 @@
 | 3 | Given a sorted array, create a new array containing squares of all the number of the input array in the sorted order. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/SquaresFromSortedArray.java) |
 | 4 | Given an array of unsorted numbers, find all unique triplets in it that add up to zero. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/UniqueTripletsNonSortedArray.java) |
 | 5 | Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible, return the sum of the triplet. If there are more than one such triplet, return the sum of the triplet with the smallest sum. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/ClosetSumTripletsNonSortedArray.java) |
+| 6 | Given an array, reverse the order of its elements. For example, [3,5,2,5,2,3,9] → [9,3,2,5,2,5,3]. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/ReverseArray.java) |
+| 7 | 2 Sum Problem: Given a sorted array of integers, find two numbers in the array that sum to a given integer target. For example, if a = [1,2,3,5,6,7] and target = 11, the answer will be 5 and 6. | [Java](https://github.com/AkshantVats/Patterns_For_Coding_interview/blob/master/Java/Two_Pointer_Pattern_Practice_Questions/TwoSum.java) |
+
 
 
 ## Fast_Slow_Pointer_Pattern_Practice_Questions
