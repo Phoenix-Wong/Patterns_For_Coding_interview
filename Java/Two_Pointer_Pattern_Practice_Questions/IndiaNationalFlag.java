@@ -6,55 +6,45 @@ package Two_Pointer_Pattern_Practice_Questions;
 
 import java.util.Arrays;
 
-class IndiaNationalFlag
-{
-    public static void main (String args[])
-    {
+class IndiaNationalFlag {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //first test case
-        
-        int[] arr = new int[] {5,2,4,4,6,4,4,3};
+
+        int[] arr = new int[]{5, 2, 4, 4, 6, 4, 4, 3};
         int pivot = 4;
-        
+
         //endregion
 
         int[] result = IndiaNationalFlag.RearrangeUsingPivot(arr, pivot);
 
-        System.out.println(Arrays.toString(result));            
-        
+        System.out.println(Arrays.toString(result));
+
     }
 
 
-    public static int[] RearrangeUsingPivot(int[] arr, int pivot)
-    {
+    public static int[] RearrangeUsingPivot(int[] arr, int pivot) {
         int start = 0;
-        int end = arr.length-1;
+        int end = arr.length - 1;
 
         int i = 0;
-        while(i < end)
-        {
-            if(arr[i] < pivot)
-            {
+        while (i < end) {
+            if (arr[i] < pivot) {
                 swap(arr, start, i);
                 start++;
                 i++;
-            }
-            else if(arr[i] > pivot)
-            {
+            } else if (arr[i] > pivot) {
                 swap(arr, end, i);
                 end--;
-            }
-            else
-            {
+            } else {
                 i++;
             }
         }
         return arr;
     }
 
-    public static void swap(int[] arr, int t1, int t2)
-    {
+    public static void swap(int[] arr, int t1, int t2) {
         int temp = arr[t1];
         arr[t1] = arr[t2];
         arr[t2] = temp;

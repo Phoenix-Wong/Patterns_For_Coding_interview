@@ -33,12 +33,12 @@ class FindClosestPoints {
 
         // Point[] arr = new Point[] {new Point(1, 2),new Point(1, 3)};
         // int numberOfElements = 1;
-        Point[] arr = new Point[] {new Point(1, 3),new Point(3, 4),new Point(2,-1)};
+        Point[] arr = new Point[]{new Point(1, 3), new Point(3, 4), new Point(2, -1)};
         int numberOfElements = 2;
         // endregion
 
         List<Point> resultsPoints = FindClosestPoints.search(arr, numberOfElements);
-        for(Point result :resultsPoints )
+        for (Point result : resultsPoints)
             System.out.println(result.x + " " + result.y);
     }
 

@@ -4,13 +4,10 @@ Question : Given an array of lowercase letters sorted in ascending order, find t
 
 package Binary_Search_Pattern_Practice_Questions;
 
-class SearchNextNumber
-{
-    public static void main (String args[])
-    {
+class SearchNextNumber {
+    public static void main(String args[]) {
         //region TestCases
-        
-        
+
 
         // char[] arr = new char[] {'a', 'c', 'f', 'h'};
         // char target = 'f';
@@ -18,7 +15,7 @@ class SearchNextNumber
         // char[] arr = new char[] {'a', 'c', 'f', 'h'};
         // char target = 'b';
 
-        char[] arr = new char[] {'a', 'c', 'f', 'h'};
+        char[] arr = new char[]{'a', 'c', 'f', 'h'};
         char target = 'm';
 
 
@@ -26,25 +23,21 @@ class SearchNextNumber
 
         char result = SearchNextNumber.search(arr, target);
 
-        System.out.println(result);            
-        
+        System.out.println(result);
+
     }
 
 
-
-    public static char search(char[] arr, char target)
-    {
+    public static char search(char[] arr, char target) {
         int n = arr.length;
-        if(target < arr[0] || target > arr[arr.length-1])
-        {
+        if (target < arr[0] || target > arr[arr.length - 1]) {
             return arr[0];
         }
 
         int startIndex = 0;
         int endIndex = arr.length - 1;
 
-        while(startIndex <= endIndex)
-        {
+        while (startIndex <= endIndex) {
             int mid = startIndex + (endIndex - startIndex) / 2;
             if (arr[mid] > target) {
                 endIndex = mid - 1;

@@ -6,16 +6,14 @@ package Two_Pointer_Pattern_Practice_Questions;
 
 import java.util.Arrays;
 
-class SquaresFromSortedArray
-{
-    public static void main (String args[])
-    {
+class SquaresFromSortedArray {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //first test case
-        
-        int[] arr = new int[] {-2, -1, 0, 2, 3};
-        
+
+        int[] arr = new int[]{-2, -1, 0, 2, 3};
+
         //endregion
 
         int[] result = SquaresFromSortedArray.squaresFromSortedArray(arr);
@@ -24,16 +22,13 @@ class SquaresFromSortedArray
     }
 
 
-
-    public static int[] squaresFromSortedArray(int[] arr)
-    {
+    public static int[] squaresFromSortedArray(int[] arr) {
         int[] newArr = new int[arr.length];
 
         int startPointer = 0;
         int endPointer = arr.length - 1;
-        int i = arr.length-1;
-        while(startPointer <= endPointer)
-        {
+        int i = arr.length - 1;
+        while (startPointer <= endPointer) {
             if (Math.abs(arr[startPointer]) < Math.abs(arr[endPointer])) {
                 newArr[i] = Math.abs(arr[endPointer]) * Math.abs(arr[endPointer]);
                 endPointer--;
@@ -44,7 +39,7 @@ class SquaresFromSortedArray
 
             i--;
         }
-        
+
         return newArr;
     }
 }

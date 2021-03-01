@@ -6,45 +6,38 @@ package Two_Pointer_Pattern_Practice_Questions;
 
 import java.util.Arrays;
 
-class SmallestSubArraytoSort
-{
-    public static void main (String args[])
-    {
+class SmallestSubArraytoSort {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //first test case
-        
-        int[] arr = new int[] {1,3,5,2,6,4,7,8,9};
-        
+
+        int[] arr = new int[]{1, 3, 5, 2, 6, 4, 7, 8, 9};
+
         //endregion
 
         int[] result = SmallestSubArraytoSort.sortestSubArray(arr);
 
-        System.out.println(Arrays.toString(result));            
-        
+        System.out.println(Arrays.toString(result));
+
     }
 
 
-    public static int[] sortestSubArray(int[] arr)
-    {
+    public static int[] sortestSubArray(int[] arr) {
         int start = 0;
-        int end = arr.length-1;
+        int end = arr.length - 1;
 
-        while(start < arr.length-1)
-        {
-            if(arr[start] > arr[start+1])
-            {
+        while (start < arr.length - 1) {
+            if (arr[start] > arr[start + 1]) {
                 break;
             }
 
             start++;
-        
+
         }
 
-        while(end > 0)
-        {
-            if(arr[end] < arr[end - 1])
-            {
+        while (end > 0) {
+            if (arr[end] < arr[end - 1]) {
                 break;
             }
             end--;
@@ -52,22 +45,19 @@ class SmallestSubArraytoSort
 
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        for(int i = start; i <= end ;i++)
-        {
+        for (int i = start; i <= end; i++) {
             max = Math.max(max, arr[i]);
             min = Math.min(min, arr[i]);
         }
 
-        while(start > 0 &&  arr[start-1] > min)
-        {
+        while (start > 0 && arr[start - 1] > min) {
             start--;
         }
 
-        while(end < (arr.length - 1) && arr[end+1] < max)
-        {
+        while (end < (arr.length - 1) && arr[end + 1] < max) {
             end++;
         }
 
-        return new int[]{start,end};
+        return new int[]{start, end};
     }
 }

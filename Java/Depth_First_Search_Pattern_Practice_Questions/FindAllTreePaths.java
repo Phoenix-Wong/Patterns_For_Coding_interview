@@ -5,14 +5,12 @@ Question : Given a binary tree and a number ‘S’, find all paths from root-to
 package Depth_First_Search_Pattern_Practice_Questions;
 
 
-class FindAllTreePaths
-{
-    public static void main (String args[])
-    {
+class FindAllTreePaths {
+    public static void main(String args[]) {
         //region TestCases
 
         //first test case
-        
+
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(7);
         root.right = new TreeNode(9);
@@ -30,19 +28,16 @@ class FindAllTreePaths
     }
 
 
-    public static int findAllTreePaths(TreeNode root, int target)
-    {
-        if(root == null)
-        {
+    public static int findAllTreePaths(TreeNode root, int target) {
+        if (root == null) {
             return 0;
         }
 
-        if(root.val == target && root.left == null && root.right == null)
-        {
+        if (root.val == target && root.left == null && root.right == null) {
             return 1;
         }
 
         return findAllTreePaths(root.left, target - root.val) + findAllTreePaths(root.right, target - root.val);
-        
+
     }
 }

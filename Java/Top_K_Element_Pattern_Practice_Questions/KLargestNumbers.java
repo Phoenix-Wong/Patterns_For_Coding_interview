@@ -13,7 +13,7 @@ class KLargestNumbers {
     public static void main(String args[]) {
         //region TestCases
 
-        int[] arr = new int[] { 3, 1, 5, 12, 2, 11 };
+        int[] arr = new int[]{3, 1, 5, 12, 2, 11};
         int numberOfElements = 3;
         //endregion
 

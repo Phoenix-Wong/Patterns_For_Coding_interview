@@ -4,12 +4,10 @@ Question : Given a sorted array of numbers, find if a given number ‘key’ is 
 
 package Binary_Search_Pattern_Practice_Questions;
 
-class OrderAgnosticBinarySearch
-{
-    public static void main (String args[])
-    {
+class OrderAgnosticBinarySearch {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //int[] arr = new int[] {4,6,10};
         //int target = 10;
 
@@ -19,26 +17,23 @@ class OrderAgnosticBinarySearch
         //int[] arr = new int[] {10, 6, 4};
         //int target = 10;
 
-        int[] arr = new int[] {10, 6, 4};
+        int[] arr = new int[]{10, 6, 4};
         int target = 4;
 
         //endregion
 
         int result = OrderAgnosticBinarySearch.search(arr, target);
 
-        System.out.println(result);            
-        
+        System.out.println(result);
+
     }
 
 
-
-    public static int search(int[] arr, int target)
-    {
+    public static int search(int[] arr, int target) {
         boolean IsAscending = arr[0] < arr[arr.length - 1];
         int startIndex = 0;
         int endIndex = arr.length - 1;
-        while(startIndex <= endIndex)
-        {
+        while (startIndex <= endIndex) {
             int mid = startIndex + (endIndex - startIndex) / 2;
             if (arr[mid] == target) {
                 return mid;
@@ -55,7 +50,7 @@ class OrderAgnosticBinarySearch
                 startIndex = mid + 1;
             }
         }
-        
+
         return -1;
 
     }

@@ -13,7 +13,7 @@ class SlidingWindowMedian {
 
         // first test case
 
-        int[] arr = new int[] { 1, 2, -1, 3, 5 };
+        int[] arr = new int[]{1, 2, -1, 3, 5};
         int k = 2;
 
         // endregion
@@ -25,13 +25,12 @@ class SlidingWindowMedian {
         }
 
     }
-    
+
     public static PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
     public static PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
 
-    public static double[] findSlidingWindowMedian(int[] arr, int k)
-    {
+    public static double[] findSlidingWindowMedian(int[] arr, int k) {
 
         double[] result = new double[arr.length - k + 1];
         //traverse array
@@ -44,12 +43,11 @@ class SlidingWindowMedian {
                 minHeap.add(arr[i]);
             }
 
-            //balance heaps 
+            //balance heaps
             rebalanceHeaps();
 
             //if the window size is equal or greater than K
-            if (i - k + 1 >= 0)
-            {
+            if (i - k + 1 >= 0) {
                 //take out the average of elements in the heap
                 if (maxHeap.size() == minHeap.size()) {
                     result[i - k + 1] = maxHeap.peek() / 2.0 + minHeap.peek() / 2.0;
@@ -69,17 +67,14 @@ class SlidingWindowMedian {
                 rebalanceHeaps();
             }
         }
-        
+
         return result;
     }
-    
-    public static void rebalanceHeaps()
-    {
-        if(maxHeap.size() > minHeap.size()+1)
-        {
+
+    public static void rebalanceHeaps() {
+        if (maxHeap.size() > minHeap.size() + 1) {
             minHeap.add(maxHeap.poll());
-        }else if(maxHeap.size() < minHeap.size())
-        {
+        } else if (maxHeap.size() < minHeap.size()) {
             maxHeap.add(minHeap.poll());
         }
     }

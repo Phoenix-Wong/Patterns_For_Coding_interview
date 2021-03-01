@@ -4,12 +4,10 @@ Question : Given an array of numbers sorted in an ascending order, find the ceil
 
 package Binary_Search_Pattern_Practice_Questions;
 
-class SearchCeilingOfNumber
-{
-    public static void main (String args[])
-    {
+class SearchCeilingOfNumber {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //int[] arr = new int[] {4,6,10};
         //int target = 6;
 
@@ -19,41 +17,34 @@ class SearchCeilingOfNumber
         //int[] arr = new int[] {4, 6, 10};
         //int target = 17;
 
-        int[] arr = new int[] {4, 6, 10};
+        int[] arr = new int[]{4, 6, 10};
         int target = -1;
 
         //endregion
 
         int result = SearchCeilingOfNumber.search(arr, target);
 
-        System.out.println(result);            
-        
+        System.out.println(result);
+
     }
 
 
-
-    public static int search(int[] arr, int target)
-    {
-        if(arr[arr.length-1] < target)
-        {
+    public static int search(int[] arr, int target) {
+        if (arr[arr.length - 1] < target) {
             return -1;
         }
 
         int startIndex = 0;
         int endIndex = arr.length - 1;
-        
-        while(startIndex <= endIndex)
-        {
+
+        while (startIndex <= endIndex) {
             int mid = startIndex + (endIndex - startIndex) / 2;
-            if(mid == target)
-            {
+            if (mid == target) {
                 return mid;
-            }
-            else if(arr[mid] > target) // move left
+            } else if (arr[mid] > target) // move left
             {
                 endIndex = mid - 1;
-            }
-            else {
+            } else {
                 startIndex = mid + 1;
             }
         }

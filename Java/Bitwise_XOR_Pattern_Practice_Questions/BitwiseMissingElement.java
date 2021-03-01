@@ -4,13 +4,11 @@ Question : Given an array of n-1n−1 integers in the range from 11 to nn, find 
 
 package Bitwise_XOR_Pattern_Practice_Questions;
 
-class BitwiseMissingElement
-{
-    public static void main (String args[])
-    {
+class BitwiseMissingElement {
+    public static void main(String args[]) {
         //region TestCases
 
-        int[] arr = new int[] {1,5,2,6,4 };
+        int[] arr = new int[]{1, 5, 2, 6, 4};
 
         //endregion
 
@@ -19,9 +17,8 @@ class BitwiseMissingElement
         System.out.println(result);
 
     }
-    
-    public static int search(int[] arr)
-    {
+
+    public static int search(int[] arr) {
         int n = arr.length + 1;
 
         int x1 = 1;
@@ -30,11 +27,11 @@ class BitwiseMissingElement
         }
 
         int x2 = arr[0];
-        for (int i = 1; i < n-1; i++) {
+        for (int i = 1; i < n - 1; i++) {
             x2 = x2 ^ arr[i];
         }
 
         return x1 ^ x2;
     }
-    
+
 }

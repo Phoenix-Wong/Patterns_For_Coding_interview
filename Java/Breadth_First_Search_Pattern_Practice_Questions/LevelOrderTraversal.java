@@ -9,26 +9,22 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class TreeNode
-{
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
 
-    TreeNode(int x)
-    {
+    TreeNode(int x) {
         val = x;
     }
 }
 
-class LevelOrderTraversal
-{
-    public static void main (String args[])
-    {
+class LevelOrderTraversal {
+    public static void main(String args[]) {
         //region TestCases
 
         //first test case
-        
+
         TreeNode root = new TreeNode(12);
         root.left = new TreeNode(7);
         root.right = new TreeNode(1);
@@ -43,13 +39,11 @@ class LevelOrderTraversal
 
     }
 
-    public static List<List<Integer>> levelOrderTraversal(TreeNode root)
-    {
+    public static List<List<Integer>> levelOrderTraversal(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        while(!queue.isEmpty())
-        {
+        while (!queue.isEmpty()) {
             int levelSize = queue.size();
             List<Integer> currentLevel = new ArrayList<>();
             for (int i = 0; i < levelSize; i++) {

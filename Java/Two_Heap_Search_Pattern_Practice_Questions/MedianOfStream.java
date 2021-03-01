@@ -31,45 +31,34 @@ class MedianOfStream {
 
     public MedianOfStream() {
         minHeap = new PriorityQueue<>((a, b) -> a - b); // increasing order
-        maxHeap = new PriorityQueue<>((a,b) -> b - a); // decreasing order
+        maxHeap = new PriorityQueue<>((a, b) -> b - a); // decreasing order
     }
 
-    public void insertValue(int num)
-    {
-        if(maxHeap.isEmpty() || maxHeap.peek() >= num)
-        {
+    public void insertValue(int num) {
+        if (maxHeap.isEmpty() || maxHeap.peek() >= num) {
             maxHeap.add(num);
-        }
-        else
-        {
+        } else {
             minHeap.add(num);
         }
 
         // both heap size need to be equal or max heap can have one extra element
-        if(maxHeap.size() > minHeap.size() + 1)
-        {
+        if (maxHeap.size() > minHeap.size() + 1) {
             //moving element from maxHeap to minHeap
             minHeap.add(maxHeap.poll());
-        } else if (maxHeap.size() < minHeap.size())
-        {
+        } else if (maxHeap.size() < minHeap.size()) {
             maxHeap.add(minHeap.poll());
         }
 
     }
 
-    public double findMedian()
-    {
-        
-        if (maxHeap.size() == minHeap.size())
-        {
+    public double findMedian() {
+
+        if (maxHeap.size() == minHeap.size()) {
             return maxHeap.peek() / 2.0 + minHeap.peek() / 2.0;
         }
-        
+
         return minHeap.peek();
     }
 
 
-   
-    
-    
 }

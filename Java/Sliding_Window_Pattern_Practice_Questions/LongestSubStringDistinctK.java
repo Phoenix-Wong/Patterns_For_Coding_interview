@@ -7,10 +7,8 @@ package Sliding_Window_Pattern_Practice_Questions;
 import java.util.HashMap;
 import java.util.Map;
 
-class LongestSubStringDistinctK
-{
-    public static void main (String args[])
-    {
+class LongestSubStringDistinctK {
+    public static void main(String args[]) {
         /* TestCases
 
         Input: String="araaci", K=2
@@ -34,7 +32,6 @@ class LongestSubStringDistinctK
 
         System.out.println(result);
     }
-
 
 
 //    public static int longestSubString(char[] arr, int k)
@@ -110,25 +107,25 @@ class LongestSubStringDistinctK
 //        return maxLength;
 //    }
 
-    public static int longestSubString(char[] arr, int k){
-        if(arr==null||arr.length == 0||arr.length<k){
+    public static int longestSubString(char[] arr, int k) {
+        if (arr == null || arr.length == 0 || arr.length < k) {
             throw new IllegalArgumentException();
         }
         int windowStart = 0;
         int maxLength = 0;
-        Map<Character,Integer> charMap = new HashMap<>();
+        Map<Character, Integer> charMap = new HashMap<>();
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
             char rightChar = arr[windowEnd];
-            charMap.put(rightChar,charMap.getOrDefault(rightChar,0)+1);
-            while (charMap.size()>k){
+            charMap.put(rightChar, charMap.getOrDefault(rightChar, 0) + 1);
+            while (charMap.size() > k) {
                 char leftChar = arr[windowStart];
-                charMap.put(leftChar,charMap.get(leftChar)-1);
-                if (charMap.get(leftChar)==0){
+                charMap.put(leftChar, charMap.get(leftChar) - 1);
+                if (charMap.get(leftChar) == 0) {
                     charMap.remove(leftChar);
                 }
                 windowStart++;
             }
-            maxLength = Math.max(maxLength,windowEnd-windowStart+1);
+            maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
         }
         return maxLength;
     }

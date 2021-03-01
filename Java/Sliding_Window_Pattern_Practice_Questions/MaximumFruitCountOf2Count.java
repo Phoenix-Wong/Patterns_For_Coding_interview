@@ -7,10 +7,8 @@ package Sliding_Window_Pattern_Practice_Questions;
 import java.util.HashMap;
 import java.util.Map;
 
-class MaximumFruitCountOf2Count
-{
-    public static void main (String args[])
-    {
+class MaximumFruitCountOf2Count {
+    public static void main(String args[]) {
         /*
         region TestCases
 
@@ -21,7 +19,7 @@ class MaximumFruitCountOf2Count
         endregion
         */
 
-        char[] arr = new char[] {'A', 'B', 'C', 'B', 'B', 'C'};
+        char[] arr = new char[]{'A', 'B', 'C', 'B', 'B', 'C'};
 
         int result = MaximumFruitCountOf2Count.findMaximumSubArray(arr);
 
@@ -79,25 +77,26 @@ class MaximumFruitCountOf2Count
 
     /**
      * samelike LongestSubStringDistinctK  only modify k to 2
+     *
      * @param arr
      * @return
      */
-    public static int findMaximumSubArray(char[] arr){
+    public static int findMaximumSubArray(char[] arr) {
         int windowStart = 0;
         int maxLength = 0;
         Map<Character, Integer> fruitFrequencyMap = new HashMap<>();
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
-            fruitFrequencyMap.put(arr[windowEnd],fruitFrequencyMap.getOrDefault(arr[windowEnd],0)+1);
+            fruitFrequencyMap.put(arr[windowEnd], fruitFrequencyMap.getOrDefault(arr[windowEnd], 0) + 1);
             //shrink the sliding window ,util 2
-            while (fruitFrequencyMap.size()>2){
-                fruitFrequencyMap.put(arr[windowStart],fruitFrequencyMap.get(arr[windowStart])-1);
-                if (fruitFrequencyMap.get(arr[windowStart])==0){
+            while (fruitFrequencyMap.size() > 2) {
+                fruitFrequencyMap.put(arr[windowStart], fruitFrequencyMap.get(arr[windowStart]) - 1);
+                if (fruitFrequencyMap.get(arr[windowStart]) == 0) {
                     fruitFrequencyMap.remove(arr[windowStart]);
                 }
                 windowStart++;
             }
-            maxLength = Math.max(maxLength,windowEnd-windowStart+1);
+            maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
         }
-            return maxLength;
+        return maxLength;
     }
 }

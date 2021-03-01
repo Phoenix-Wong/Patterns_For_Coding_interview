@@ -9,14 +9,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class ZigZagLevelOrderTraversal
-{
-    public static void main (String args[])
-    {
+class ZigZagLevelOrderTraversal {
+    public static void main(String args[]) {
         //region TestCases
 
         //first test case
-        
+
         TreeNode root = new TreeNode(12);
         root.left = new TreeNode(7);
         root.right = new TreeNode(1);
@@ -31,25 +29,19 @@ class ZigZagLevelOrderTraversal
 
     }
 
-    public static List<List<Integer>> zigZagLevelOrderTraversal(TreeNode root)
-    {
+    public static List<List<Integer>> zigZagLevelOrderTraversal(TreeNode root) {
         List<List<Integer>> result = new LinkedList<List<Integer>>();
         Queue<TreeNode> queue = new LinkedList<>();
         boolean isLeftToRight = true;
         queue.offer(root);
-        while(!queue.isEmpty())
-        {
+        while (!queue.isEmpty()) {
             int level = queue.size();
             List<Integer> currentLevelList = new ArrayList<>();
-            for(int i = 0 ; i < level; i++)
-            {
+            for (int i = 0; i < level; i++) {
                 TreeNode currentNode = queue.poll();
-                if (isLeftToRight)
-                {
+                if (isLeftToRight) {
                     currentLevelList.add(currentNode.val);
-                }
-                else
-                {
+                } else {
                     currentLevelList.add(0, currentNode.val);
                 }
 
@@ -65,6 +57,6 @@ class ZigZagLevelOrderTraversal
             isLeftToRight = !isLeftToRight;
         }
         return result;
-        
+
     }
 }

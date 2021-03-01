@@ -4,8 +4,7 @@ Question : Given the head of a Singly LinkedList, write a function to determine 
 
 package Fast_Slow_Pointer_Pattern_Practice_Questions;
 
-class ListNode 
-{
+class ListNode {
     int value = 0;
     ListNode next;
 
@@ -14,12 +13,10 @@ class ListNode
     }
 }
 
-class CheckIsCyclicLinkedList
-{
-    public static void main (String args[])
-    {
+class CheckIsCyclicLinkedList {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //first test case
         ListNode head = new ListNode(10);
         head.next = new ListNode(11);
@@ -31,24 +28,20 @@ class CheckIsCyclicLinkedList
 
         boolean result = CheckIsCyclicLinkedList.hasCycle(head);
 
-        
-        System.out.println(result);            
-        
+
+        System.out.println(result);
+
     }
 
 
+    public static boolean hasCycle(ListNode head) {
 
-    public static boolean hasCycle(ListNode head)
-    {
-        
         ListNode slowPointer = head;
         ListNode fastPointer = head;
-        while (fastPointer != null && fastPointer.next != null)
-        {
+        while (fastPointer != null && fastPointer.next != null) {
             fastPointer = fastPointer.next.next;
             slowPointer = slowPointer.next;
-            if (slowPointer == fastPointer)
-            {
+            if (slowPointer == fastPointer) {
                 return true;
             }
         }

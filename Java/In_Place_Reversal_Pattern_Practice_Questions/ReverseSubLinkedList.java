@@ -4,14 +4,12 @@ Question : Given the head of a LinkedList and two positions ‘p’ and ‘q’,
 
 package In_Place_Reversal_Pattern_Practice_Questions;
 
-class ReverseSubLinkedList
-{
-    public static void main (final String args[])
-    {
+class ReverseSubLinkedList {
+    public static void main(final String args[]) {
         //region TestCases
-        
+
         //first test case
-       
+
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
@@ -21,15 +19,13 @@ class ReverseSubLinkedList
         int q = 4;
         //endregion
 
-        ListNode result = ReverseSubLinkedList.reverse(head, p ,q);
+        ListNode result = ReverseSubLinkedList.reverse(head, p, q);
 
-        while (result != null)
-        {
+        while (result != null) {
             System.out.print(result.value + " -> ");
             result = result.next;
         }
     }
-
 
 
     public static ListNode reverse(ListNode head, final int p, final int q) {

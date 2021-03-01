@@ -6,31 +6,27 @@ package Cyclic_Sort_Pattern_Practice_Questions;
 
 import java.util.Arrays;
 
-class CyclicSortArray
-{
-    public static void main (String args[])
-    {
+class CyclicSortArray {
+    public static void main(String args[]) {
         //region TestCases
-        
+
         //first test case
-       
-        int[] arr = new int[] {3, 1, 5, 4, 2};
+
+        int[] arr = new int[]{3, 1, 5, 4, 2};
 
         //endregion
 
         int[] result = CyclicSortArray.sort(arr);
 
-        
-        System.out.println(Arrays.toString(result));            
-        
+
+        System.out.println(Arrays.toString(result));
+
     }
 
 
-
-    public static int[] sort(int[] arr)
-    {
+    public static int[] sort(int[] arr) {
         int index = 0;
-        //traverse every element 
+        //traverse every element
         while (index < arr.length) {
             int tempPosition = arr[index] - 1;
 
@@ -45,9 +41,8 @@ class CyclicSortArray
         return arr;
 
     }
-    
-    public static void swap(int[] arr, int i, int j)
-    {
+
+    public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

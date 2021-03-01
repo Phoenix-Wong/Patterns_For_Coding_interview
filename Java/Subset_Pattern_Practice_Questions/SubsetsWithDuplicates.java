@@ -14,20 +14,18 @@ class SubsetsWithDuplicates {
 
         // first test case
 
-        int[] arr = new int[] { 1, 5, 3, 3 };
+        int[] arr = new int[]{1, 5, 3, 3};
 
         // endregion
 
         List<List<Integer>> result = SubsetsWithDuplicates.findSubsets(arr);
 
-        for(List<Integer> i : result)
-        {
+        for (List<Integer> i : result) {
             System.out.println(Arrays.toString(i.toArray()));
         }
     }
 
-    public static List<List<Integer>> findSubsets(int[] arr)
-    {
+    public static List<List<Integer>> findSubsets(int[] arr) {
         Arrays.sort(arr);
         List<List<Integer>> result = new ArrayList<>();
 
@@ -37,15 +35,13 @@ class SubsetsWithDuplicates {
         int startIndex = 0;
         int endIndex = result.size();
         //traverse through array
-        for(int i = 0 ; i < arr.length; i++)
-        {
+        for (int i = 0; i < arr.length; i++) {
             //set start index to 0 every new element
             startIndex = 0;
 
-            
+
             //check if the element is duplicate or not
-            if(i > 0 && arr[i] == arr[i-1])
-            {
+            if (i > 0 && arr[i] == arr[i - 1]) {
                 //set start index to use only last element
                 startIndex = endIndex;
             }
@@ -54,23 +50,18 @@ class SubsetsWithDuplicates {
             endIndex = result.size();
 
             //add new element to every subset
-            for(int j = startIndex; j < endIndex; j++)
-            {
+            for (int j = startIndex; j < endIndex; j++) {
                 //fetch the subset at this index
                 ArrayList<Integer> set = new ArrayList<>(result.get(j));
                 set.add(arr[i]);
                 //find duplicate
                 result.add(set);
-              
+
             }
 
         }
         return result;
     }
-    
-   
 
-   
-    
-    
+
 }
